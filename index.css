@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+
+    font-family: 'Spectral', serif;
+    /* background-color: rgb(213, 196, 196); */
+}
+
+#header {
+    background-color: rgb(229, 232, 235);
+    text-align: center;
+}
+
+#header li {
+    list-style: none;
+    border: none;
+    font-size: 18px;
+    margin-left: 40px;
+}
+@media screen and (max-width:700px) {
+    #header li{
+    font-size: 15px;
+    margin-left: 5px;}
+}
+
+h1 {
+    padding: 15px;
+}
+
+.mynavbar {
+    display: flex;
+    flex-direction: row ;
+
+}
+.mynavbar a{
+    text-decoration: none;
+}
+
+.cont {
+    background-image: url(img/banner-bg.jpg);
+    height: 76vh;
+    background-size: cover;
+}
+
+
+#cntr {
+    width: 50%;
+    padding-top: 150px;
+    color: rgb(215, 199, 239);
+}
+
+@media screen and (max-width:800px) {
+    #cntr {
+        width: 80%;
+        padding-top: 150px;
+        left: auto;
+        color: rgb(215, 199, 239);
+    }
+}
+
+#cntr h4,
+h2,
+h6 {
+    text-shadow: 0px 50px 80px #00ff6e;
+
+}
+
+/* for box */
+.box {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+#img1 {
+    margin-top: 2%;
+    height: 350px;
+    background-image: url(img/cook_01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#img2 {
+    margin-top: 2%;
+    height: 350px;
+    background-image: url(img/cook_02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+@media screen and (max-width:770px){
+    #img2{
+        margin-top: 0%;
+    }
+    
+}
+
+.box p {
+    padding: 10px;
+}
+
+.content {
+    padding: 100px;
+    text-align: center;
+    height: 400px;
+    background-color: #00ff6e;
+}
+
+#boxcont {
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffa2a2;
+    opacity: 0.4;
+}
+
+.catgry {
+    text-align: center;
+}
+
+.catgry img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(222, 191, 252);
+}
+
+.catgry p {
+    margin: 5%;
+    font-size: 25px;
+}
+
+#img_2 {
+    background-image: url(img/book-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 5%;
+}
+
+#book {
+    width: 100%;
+    color: azure;
+    align-items: center;
+    padding: 50px;
+}
+
+/* @media screen and (max-width:1000px) {
+    #book {
+        width: 100%;
+        color: azure;
+        align-items: center;
+        padding: 10px;
+    }
+} */
+
+#mydivv {
+    text-align: center;
+    width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    #mydivv {
+        text-align: center;
+        width: 90%;
+        height: 5%;
+    }
+
+}
+.imgorder {
+    background-image: url(img/book_left_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+}
+
+#ccd {
+    background-color: #f3f8ef;
+}
+
+.carddiv {
+    margin-left: 3px;
+    background-color: whitesmoke;
+    width: 100%;
+}
+.mytext{
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    float:left;
+    
+    position: absolute;
+    color: rgb(255, 0, 0);
+    opacity: 0.85;  
+}
+#ccd img {
+    width: 100%;
+    background-size: cover;
+
+}
+
+.myform {
+    background-color: azure;
+    padding: 3%;
+}
+
+.myform input,
+select,
+button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.clrdiv {
+    background-color: #ffa2a2;
+    height: 30vh;
+    text-align: center;
+    padding: 70px;
+}
+
+#myblog img {
+    width: 50%;
+    height: 90%;
+}
+@media screen and (max-width:800px) {
+    #myblog img{
+        width:100%;
+        height:auto;
+    }
+    
+}
+.peradiv {
+    height: 90%;
+    float: right;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+}
+@media screen and (max-width:800px) {
+    .peradiv{
+        width:100%;
+        height:auto;
+    }
+    
+}
+.peradiv p {
+    padding: 3px;
+    color: rgb(107, 108, 109);
+}
+
+#footer {
+    background-image: url(img/heading-bg.jpg);
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #00ff6e;
+}
+
+#foot {
+    width: 40%;
+    text-align: center;
+
+}
+
+@media screen and (max-width:1060px) {
+    #foot {
+        width: 100%;
+        text-align: center;
+
+    }
+}
+footer{
+    background-color: #3c4457;
+    padding: 50px;
+    text-align: center;
+}
+footer a {
+    padding: 10px;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+    margin: 8px;
+}

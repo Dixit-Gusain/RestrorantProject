@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family:  'Spectral',serif;
+}
+#header{
+    background-color: rgb(229, 232, 235);
+    text-align: center;
+}
+#header li{
+    border: none;
+    list-style: none;
+    font-size: 18px;
+    margin-left: 40px;
+}
+@media screen and (max-width:700px) {
+    #header li{
+    font-size: 15px;
+    margin-left: 5px;}
+}
+h1{
+    padding: 15px;
+}
+#mybgimg{
+    background-image: url(img/banner-bg.jpg);
+    height: 45vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+#mydiv{
+    color: rgb(215, 199, 239);
+    font-weight: 100;
+    width: 40%;
+    padding-top: 5%;
+}
+@media screen and (max-width:1000px) {
+    #mydiv{
+        color: rgb(255, 242, 242);
+        font-weight: 100;
+        width: 80%;
+        padding-top: 30%;
+    }
+}
+#cont{
+    margin-top: 50px;
+    height: auto;
+    left: 50%;
+    width: 60%;
+}
+@media screen and (max-width:992px) {
+    #cont{
+        margin-top: 50px;
+        height: auto;
+        width: 98%;
+    }
+}
+#cont .for_img{
+    height: 500px;
+    background-image: url(img/breakfast_menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont .for_img1{
+    height: 500px;
+    background-image: url(img/lunch_menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cont .for_img2{
+    height: 500px;
+    background-image: url(img/dinner_menu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width:992px) {
+    #cont .for_img{
+        height: 400px;
+        background-image: url(img/breakfast_menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #cont .for_img1{
+        height: 400px;
+        background-image: url(img/lunch_menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #cont .for_img2{
+        height: 400px;
+        background-image: url(img/dinner_menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* .slider{ */
+    /* display: flex; */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* flex-direction: row; */
+    /* overflow: hidden; */
+/* } */
+.slides{
+    display: none;
+}
+.textcont{
+    padding: 20px;
+}
+.img_2{
+    background-image: url(img/book-bg.jpg);
+    background-size: cover;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 5%;
+}
+#book{
+    width: 100%;
+    color: azure;
+    align-items:center;
+    padding: 50px;
+}
+#mydivv{
+    text-align: center;
+    width: 50%;
+}
+@media screen and (max-width:1000px) {
+    #mydivv {
+        text-align: center;
+        width: 90%;
+        height: 5%;
+    }
+
+}
+
+.imgorder{
+    background-image: url(img/book_left_image.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35vh;
+    width: 100%;
+}
+.myform{
+    background-color: azure;
+    padding: 3%;
+}
+.myform input, select, button{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer{
+    background-color: #3c4457;
+    padding: 50px;
+    text-align: center;
+  
+}
+footer a {
+    padding: 10px;
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+    margin: 8px;
+}
